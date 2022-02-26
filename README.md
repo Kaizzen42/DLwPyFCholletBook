@@ -18,3 +18,10 @@ python3 -m pip install tensorflow-macos
 python -m pip install tensorflow-metal
 ```
 Ref: https://developer.apple.com/metal/tensorflow-plugin/
+
+4. Add some useful libraries
+```
+conda install matplotlib -y
+conda install -c conda-forge scikit-learn -y
+conda install -c conda-forge pandas -y
+```
